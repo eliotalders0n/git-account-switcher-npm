@@ -1,0 +1,39 @@
+{
+  "name": "@variant96/git-account-switcher",
+  "version": "1.0.1",
+  "description": "Interactive CLI tool for managing and switching between multiple git and GitHub CLI accounts",
+  "main": "src/index.js",
+  "bin": {
+    "git-switch": "bin/git-switch.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "git",
+    "github",
+    "cli",
+    "account",
+    "switcher",
+    "multiple-accounts",
+    "developer-tools"
+  ],
+  "author": "eliotalders0n",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eliotalders0n/git-account-switcher.git"
+  },
+  "bugs": {
+    "url": "https://github.com/eliotalders0n/git-account-switcher/issues"
+  },
+  "homepage": "https://github.com/eliotalders0n/git-account-switcher#readme",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^11.1.0",
+    "inquirer": "^8.2.6"
+  }
+}

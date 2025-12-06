@@ -1,0 +1,15 @@
+.git/
+.gitignore
+.vscode/
+.idea/
+.DS_Store
+*.swp
+*.swo
+npm-debug.log
+yarn-error.log
+coverage/
+.nyc_output/
+test/
+tests/
+*.test.js
+*.spec.js
